@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal page of Alfredo Martin">
+    <title>Alfredo Martin - Personal Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #667eea;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .bio {
+            font-size: 1.1em;
+            color: #4a5568;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .skills {
+            margin-top: 40px;
+            padding-top: 40px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .skills h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            padding: 8px 16px;
+            background: #edf2f7;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: #4a5568;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .bio {
+                font-size: 1em;
+            }
+
+            .links {
+                flex-direction: column;
+            }
+
+            .link-button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">AM</div>
+        
+        <h1>Alfredo Martin</h1>
+        <p class="subtitle">Software Developer & Technology Enthusiast</p>
+        
+        <p class="bio">
+            Welcome to my personal page! I'm passionate about building innovative solutions
+            and learning new technologies. This page showcases my interests and provides
+            ways to connect with me.
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/alfredomartinm" class="link-button">GitHub</a>
+            <a href="mailto:contact@example.com" class="link-button">Email</a>
+            <a href="https://linkedin.com/in/yourprofile" class="link-button">LinkedIn</a>
+        </div>
+
+        <div class="skills">
+            <h2>Skills & Interests</h2>
+            <div class="skill-tags">
+                <span class="skill-tag">Web Development</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Open Source</span>
+                <span class="skill-tag">Problem Solving</span>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Alfredo Martin. Built with HTML & CSS.</p>
+        </footer>
+    </div>
+</body>
+</html>
